@@ -6,6 +6,7 @@ body{
 body p{
     font-size: 16px;
 }
+
 .card{
     width:400px;
     height:600px;
@@ -51,6 +52,9 @@ body p{
     padding-top:10px;
     color:hsl(228, 94%, 67%);
 }
+.chng:hover{
+    cursor: pointer;
+}
 .buttoncnt{
     display: flex;
     flex-direction: column;
@@ -68,6 +72,10 @@ body p{
     color:white;
     background:hsl(245, 75%, 52%);
     opacity:0.7;
+}
+.b21:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 .b22{
     background:#fff;
