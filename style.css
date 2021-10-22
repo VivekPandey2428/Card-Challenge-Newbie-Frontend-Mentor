@@ -1,0 +1,74 @@
+body{
+    font-family: [Red Hat Display]("https://fonts.google.com/specimen/Red+Hat+Display");
+    background-image:url('images/pattern-background-desktop.svg');
+    background-size:100%;
+}
+body p{
+    font-size: 16px;
+}
+.card{
+    width:400px;
+    height:600px;
+    background:#fff;
+    margin:50px auto;
+    border-radius:20px; 
+}
+.card-img-bg{
+    background-size: cover;
+    width:100%;
+}
+.card-img-bg img{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+.card-content{
+    text-align: center;
+}
+.card-para{
+    width:80%;
+    margin-left:40px;
+}
+.flexpara{
+    display: flex;
+    background: hsl(225, 100%, 98%);
+    margin-left:40px;
+    margin-right:40px;
+    border-radius: 10px;
+}
+.flexpara img{
+    height:40px;
+    padding-left:10px;
+    padding-top:15px;
+}
+.flexpara p{
+    padding-left:50px;    
+}
+.headerh1{
+    padding-top:20px;
+    font-size: 24px;
+}
+.chng{
+    padding-top:10px;
+    color:hsl(228, 94%, 67%);
+}
+.buttoncnt{
+    display: flex;
+    flex-direction: column;
+}
+.buttoncnt button{
+    width:80%;
+    padding:12px;
+    margin-left:40px;
+    margin-bottom:10px;
+    margin-top:10px;
+    border-radius:10px;
+    border:none;
+}
+.b21{
+    color:white;
+    background:hsl(245, 75%, 52%);
+    opacity:0.7;
+}
+.b22{
+    background:#fff;
+}
